@@ -3,7 +3,7 @@ PROJE TANITIMI — ITSM, MCP, RAG ve Offline LLM ile RCA
 
 1. Projenin amacı
 -----------------
-Mock ITSM bilet verisini (REST ve/veya MCP araçları) alıp, on bilgi tabanı dokümanı üzerinden RAG (Chroma + embedding) ile zenginleştirerek, yerel (offline) büyük dil modeli ile her bilet için Root Cause Analysis (RCA: kök neden, gerekçe, çözüm) üretmek.
+Mock ITSM bilet verisini (MCP araçları) alıp, on bilgi tabanı dokümanı üzerinden RAG (Chroma + embedding) ile zenginleştirerek, yerel (offline) büyük dil modeli ile her bilet için Root Cause Analysis (RCA: kök neden, gerekçe, çözüm) üretmek.
 
 Ana bileşenler: FastAPI (RCA API), Ollama (LLM + embedding), Chroma (RAG), stdio MCP sunucusu (bilet araçları), **React + Vite web arayüzü** (tarayıcıdan MCP listesi / sohbet ve RCA).
 
