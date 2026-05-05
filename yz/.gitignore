@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+data/chroma/
+.pytest_cache/
+frontend/node_modules/
+app/static_ui/
