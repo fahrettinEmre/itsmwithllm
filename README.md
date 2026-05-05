@@ -1,0 +1,1 @@
+Proje yz klasörü içindedir.
